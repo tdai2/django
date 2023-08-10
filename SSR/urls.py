@@ -5,6 +5,8 @@ from SSR import views
 
 router = routers.DefaultRouter()
 router.register(r'skills', views.SkillViewSet)
+router.register(r'girls', views.GirlViewSet)
+router.register(r'ssrs', views.SsrViewSet)
 router.register(r'accounts', views.AccountViewSet)
 
 urlpatterns = [
